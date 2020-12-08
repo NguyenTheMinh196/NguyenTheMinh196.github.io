@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> How to use github</title>
+    <link rel = "stylesheet" href = "css\test.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Website">
+</head>
+<body class="bg-color">
+    <h1 class = "First-header"> Github instruction </h1>
+    <nav>
+            <div class = "menu">
+            <ul>   
+                <li><a href = "#">About me and my group </a></li>
+                <li><a href = "#">Project Idea </a> </li>
+                <li><a href = "#">Tools </a></li>
+                <li><a href = "#">Feedback </a> </li>
+                <li><a href = "#">IT technologies </a></li>
+                <li><a href = "#">IT work </a> </li>
+                <li><a href = "#">How to use github</a>
+                    <ul class = "submenu">
+                        <li><a href = "#how_to_use_github_1">Gettin started with Git and Github </a> </li>
+                        <li><a href = "#how_to_use_github_2">Setting up Github and Git in your computer</a> </li>
+                        <li><a href = "#how_to_use_github_3">Git command </a> </li>
+                        <li><a href = "#how_to_use_github_4">Resolve conflict </a> </li>
+                        <li><a href = "#how_to_use_github_5">Git branching </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "container-fluid fullwidth">
+        <div class = "row">
+            <div class = "col-9">
+                <section class = "section", id ="how_to_use_github_1">
+                <h2> Getting started with Git and Github </h2> 
+                <p> In this page, we will be introducing to you about Git and Github which is two very important application to IT and every programmer. 
+                        This program is similar to common tools such as Google Drive but it is especially built for people to work on a project or program together. 
+                        Git and Github also work perfectly for people wanting to work on a coding program with helping application such as repository, pull, push and 
+                        it was also supported by many coding editor for people to do their project. That is the reason why for every programmer or people who want to become
+                        a programmer, learning about these application is a must. </p>
+                    <button class = "dropdown_button"> <h5> What is Git and Github </h5>
+                        <div class = "body_paragraph">
+                            <div class = "grid_box_for_text">
+                                <h1>What is Git? </h1>
+                                <p>Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is used to manage the change to the system, which is from program, website to all kind of project that we are dealing with. When you want to start working with git, you must install git to your computer first, you can check whenever you have already had git on your computer or not by using the command git –version. If your computer does not have one, you can download it online. We recommend you using the Visual Studio Code for using Git since it supports many different programming languages and also Git</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\git.png" class = "center_image", width = "90%", alt = "git logo"> </img>
+                                <p class = "reference_for_the_image"> Git logo </p>
+                            </div>
+                        </div>
+                        <div class = "body_paragraph">   
+                            <!--grid 1-->
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\github.png" class = "center_image", width = "40%", alt = "Github logo"> </img>
+                                <p class = "reference_for_the_image"> Github logo </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>What is Github? </h1>
+                                <p>Github is the online website that contain the repository so that the other people can also join in and work with your project. It is usually used to connect between the programmer to visit other's work, work with each other</p>
+                            </div>  <!--grid 2-->
+                        </div>
+                    </button>
+                <h2>Why programmer choose Git and Github</h2>
+                <p> As I mentioned above, Git and Github was perfect for hosting projects and people to work together. However, how is it better than normal application like Google Drive aside from the fact you can upload it from code editor such as Visual Studio Code? 
+                The reason is because it has something called repository and branching which will be explained later on. It was made just for hosting project and user-friendly for people who are working or looking for a project. 
+                    <button class = "dropdown_button"> <h5> Git Repository </h5>
+                        <div class ="body_paragraph">
+                            <div class = "grid_box_for_text">
+                                <h1>What is git repository? </h1>
+                                <p>Repository is mean your own project or the other body project. When we are talking about coding, it is usually used to describe the project that you upload into git which is the folder that contain all the detail that makes up your project. It will be containing all the folder and coding files that made up your program.</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\git repo defi.png" class = "center_image", width = "50%", alt = "Git repository explaination"> </img>
+                                <p class = "reference_for_the_image"> Git repository </p>
+                            </div>
+                        </div> 
+                    </button>
+                <div class = "seperator"></div>
+                </section>  <!--end section 1-->
+                <section class = "section", id ="how_to_use_github_2"> <!--begin section 2-->
+                    <div class = "seperator"></div>
+                    <h2> Setting up Github and Git in your computer </h2>
+                    <p> After learning about what Git is and what is Github from the last section, in this section, we will show you about how to install Git and other work that you need to do for your computer 
+                    to get ready to work. We will be looking at how setting up your Git and Github account first
+                    <button class = "dropdown_button"> <h5> Setting up Git and Github account </h5>
+                        <div class = "body_paragraph">
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\install Git.png" class = "center_image", width = "80%", alt = "Install Git representaion"> </img>
+                                <p class = "reference_for_the_image"> How to install Git </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>How to install Git </h1>
+                                <p>If your computer have yet to have Git install, you can download it online by going to the <a href = "https://git-scm.com/downloads">link </a>(https://git-scm.com/downloads) and choose between all the options avaiable to you. </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>Creating a github account </h1>
+                                <p>When signing into Github, you are required to input the username, email address, password and finally verify the account by solving the puzzle below (step 1). After finish setting up the account, you will be asked some questions about the reason you choose to use github from what kind of work do you do, programming experience to why you choose github and your interest (step 2). After answered all those questions, you will be asked to verify your email. Finally, you have finished signing up for Github.</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <div class = 'image_container'>
+                                    <img src = "picture for personal website\creating git account 1.png" class = "image_inside_grid", width = "80%", alt = "git logo"/>
+                                    <span class ='caption'> step 1</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\github account creation 2.png" class = "image_inside_grid", width = "80%", alt = "git logo"/> 
+                                    <span class = "caption">step 2</span>
+                                </div>
+                            </div> <!--grid 1-->
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\git_repo_creation_1.png" class = "image_inside_grid", width = "90%", alt = "git logo"/> 
+                                    <span class = "caption">step 1</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\git_repo_creation_2.png" class = "image_inside_grid", width = "90%", alt = "git logo"/> 
+                                    <span class = "caption">step 2</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\git_repo_creation_3.png" class = "image_inside_grid", width = "100%", alt = "git logo"/> 
+                                    <span class = "caption">example</span>
+                                </div>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>Creating a repository </h1>
+                                <p>The first step that you should be doing after signing up for a github account is to either create a repository or import other repository. You can create one by selecting the “Create repository” button on the left (step 1). This is also the place where it will show all the repository you are currently dealing with and your teams. After pressing the Create repository button, it will lead you to this page where you are required to input information(step 2). A github repository will be looking like example when you create one and in that case, the repository that I created is called Minh196.github.io.</p>
+                            </div>  <!--grid 2-->
+                        </div>
+                    </button>
+                    <p> After finish creating your Git and Github account, you can look into setting up your computer to be ready to work with. This step can be done after you download Git and Github so in order to do so, you need to finish the install Git tutorial from above first.
+                     For the next step, you will be creating a Git account that will be linked to your local machine and it will be used everytime you push something to Github. We will also look at the most basic command that you will need to know when dealing with Git</p>
+                    <button class = "dropdown_button"> <h5> Setting up your computer</h5>
+                        <div class = "body_paragraph">
+                            <div class = "grid_box_for_text">
+                                <h1>cd command </h1>
+                                <p>cd which is also known as change directory is one of the most important command that you also must be mindful of when dealing with. We can know where we are currently are from the first part of the code which is C:\Users\Asus in this case and when I use the code cd (a file directory), I arrived at the folder that I called (example 1). With this code, we can go to a specific folder to clone the repository online. There are 2 primary kinds of cd which is going in by using the command cd (a file directory) and going out by using cd .. command (example 2) which bring you back to file before that. It is crucial for you to know where you are so as you won’t get lost and forget where you put the project at.</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\cd1.png" class = "image_inside_grid", width = "100%", alt = "git logo"/> 
+                                    <span class = "caption">example 1</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\cd2.png" class = "image_inside_grid", width = "100%", alt = "git logo"/> 
+                                    <span class = "caption">example 2</span>
+                                </div> 
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\git_config.png" class = "center_image", width = "100%", alt = "Github logo"> </img>
+                                <p class = "reference_for_the_image"> Example </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>git config </h1>
+                                <p>Git config commands are a bunch of commands that will help you setup your git on your local machine. The two must fix when you are working with Git are creating a name and email for your local email when you are uploading to the online repository so that the other will know who upload those files and how to contact you (example). The command for that is git config –global user.name/email</p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>SSH key </h1>
+                                <p>If you want the github account to understand when you are pushing some files online that It is you who are that account, you need to connect something called SSH key from your local machine to your github account. To do that, you have to generate a ssh key in your computer first by typing the command ssh-keygen -t rsa -b 4096 -C (your github email address). After that, you are required to input the file’s name where it will keep the key and a password(step 1). After creating the key, if you get into the folder where you are currently at (directory), you can see there is 2 new files. One is the ssh-key’s name, and the other is ssh-key’s name pub. The file with the pub means that it is something that can be shown to the public while the other one is something you should only keep it for yourself. When you upload the file online, the program will know your private ssh-key that will lead to your public key to identify that the pusher is you not some anonymous computer. That’s why the next step is to get to github and input the ssh key to your account. To do that, you must go into setting and look for the SSH and GPG keys and click the “New SSH key” button(step 2). After clicking the button, you will be lead to a place for you to setup your key and in this case, I will be seting up mine public key by putting in the title and the content inside the file key. After finish putting in the content, you just need to add the SSH key(step 3) and then later on, when you are working with github, they will be able to know it is you by using your private ssh-key.</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\SSHkey1.png" class = "image_inside_grid", width = "100%", alt = "SSHkey step1"/> 
+                                    <span class = "caption">Step 1</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\SSHkey2.png" class = "image_inside_grid", width = "100%", alt = "SSHkey step2"/> 
+                                    <span class = "caption">Step 2</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\SSHkey3.png" class = "image_inside_grid", width = "100%", alt = "SSHkey step3"/> 
+                                    <span class = "caption">Step 3</span>
+                                </div> 
+                            </div>
+                        </div> 
+                    </button>
+                </section>
+                
+                <section class = "section", id ="how_to_use_github_3"><!--begin section 3-->
+                    <div class = "seperator"></div>
+                    <h2> Git command</h2>
+                    <p>In this section, we will be learning about some of the most basic Git and github. Firstly, we will be learning the very first command that you need to do when you are working with git and github is git clone. 
+                    After that, we can look at the other basic command for every person to work on a project. </p>
+                    <button class = "dropdown_button"> <h5>Git clone</h5>
+                        <div class = "body_paragraph"> <!--create grid-->
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>Git clone command </h1> 
+                                <p> Git clone is the most basic but also the very first command that every single person must learn when they work with Git and Github. This is a command that can be used to bring a repository that is hosted online in website such as github to a folder on our local machine. This is the folder where you can do edit to the project offline and then send it back online to make changes to your project. You can do it by pressing the green code button and click the copy code next to the link that was shown (Step 1). After that, you need to get into vsc and write the code git clone and paste the link down.(Step 2) You need to remember which folder you are currently in because the code will create a folder at the place you are currently at. </p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\gitclone2.png" class = "image_inside_grid", width = "100%", alt = "Github clone step 1 (online)"/> 
+                                    <span class = "caption">Step 1</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\git clone.png" class = "image_inside_grid", width = "100%", alt = "Github clone step 2 (in visual studio code)"/> 
+                                    <span class = "caption">Step 2</span>
+                                </div> 
+                            </div> <!--row 1 end-->
+                        </div>
+                    </button>
+                    <h2> Git add - commit - push combination</h2>
+                    <p> This time, we will be learning about the combination add-commit-push. This is an important combination for you to push all the file that you worked on in your local machine to the online 
+                    repository. The reason why they dissect the ability to push your work online to 3 different parts is so that you can debug and fix your problem much easier. Each command in this combination has a different function that eventually, 
+                    lead to you pushing your work online.<br> An important thing to notice: You have to be inside the directory so make sure that you are in the folder that you clone from the git clone command. Only by being inside the folder that you 
+                    clone from github will give you the ability to use the combination.</p>
+                    <button class = "dropdown_button"> <h5>The combination of git add - commit - push</h5>
+                        <div class ="body_paragraph">
+                            <div class = "grid_box_for_blank_spot">  <!--row 2-->
+                                <img src = "picture for personal website\git add.png" class = "center_image", width = "90%", alt = "Git add example" > </img>
+                                <p class = "reference_for_the_image"> Example </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>Git add </h1>
+                                <p>This command is used to track down all the files and the changes related to the project. After the command git add, you are required to input the file name that you want to add or every file by using (.) function(Example)</p>
+                            </div>  <!--end grid 2-->
+                            <div class = "grid_box_for_text">
+                                <h1>Git commit </h1>
+                                <p>This is a command that is used to save all the changes that we have tracked from the Git add command to Git. For the Git commit command, you are required to insert a message to explain what you have done for it to come with all the changes you made (example). When the other see the changes that you made, this message will help them have a general idea of what you did.</p>
+                            </div>
+                        
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\git commit.png" class = "center_image", width = "90%", alt = "Git commit example"> </img>
+                                <p class = "reference_for_the_image"> Example 1 </p>
+                            </div>   
+                            <div class = "grid_box_for_blank_spot">  <!--row 2-->
+                                <img src = "picture for personal website\git push.png" class = "center_image", width = "70%", alt = "Git push example" > </img>
+                                <p class = "reference_for_the_image">  Example 1 </p>
+                            </div>
+                            <div class = "grid_box_for_text">
+                                <h1>Git push </h1>
+                                <p>This command is used to upload all the files that we have saved in the git commit command to the online repository such as Github(Example). After using all the command, the other people will be able to see the changes you made to the project. This series of command is used to record all the changes that you made and upload it online for the other to see. </p>
+                            </div>  <!--end grid 2-->
+                            
+                            <div class = "grid_box_for_text">
+                                <h1>The Git add- Git commit - Git push combination </h1>
+                                <p>This combination is for you to save the all the changes that you made inside the repository and upload it to the online repository for other people to see and work with it. The code for all the step in the combination is like the example.</p>
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\full example git add-commit-push.png" class = "image_inside_grid", width = "100%", alt = "full example of the combination"/> 
+                                    <span class = "caption">Example</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\before the combination.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">The local machine file before git pull</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\After the combination.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">The github repository before git pull</span>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                        <h2> Git pull command </h2>
+                        <p> the next command we will look at is the git pull command. This command is the opposite to the combination. If we use the combination, we can push the information from our local machine to the Github then the 
+                        git pull command is for us to pull the all the changes that was made by the other to our local machine. However, unlike the combination, since the other have already fix all the bug when they use the combination when they push 
+                        the changes to github, we don't need to have to go through many combination but only need to use the git pull command. <br> An important thing to notice: git pull also require you to be inside the same folder that you clone from github 
+                        to be able to pull the changes in.
+                    <button class = "dropdown_button"> <h5> Git pull command</h5>
+                        <div class = "body_paragraph">   
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\Git pull command example.png" class = "image_inside_grid", width = "100%", alt = "full example of the combination"/> 
+                                    <span class = "caption">Example</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\Before git pull 1.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">The local machine file before git pull</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\Before git pull 2.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">The github repository before git pull</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\After git pull.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">After git pull command</span>
+                                </div>  
+                            </div>
+
+                            <div class = "grid_box_for_text">
+                                <h1>Git pull command. </h1>
+                                <p>This command is used to download all the changes from the online repository to our local machines. The code for this command is git pull (file name) or just use git pull . for it to pull in any update that was made by other people for you to stay up to date in your local github file (example). This can also be used to fix the problem of having 2 files of the same name while one online and the other in your local machine.</p>
+                            </div>
+                        </div> 
+                    </button>
+                </section>
+                <section class = "section", id ="how_to_use_github_4"><!--begin section 3-->
+                    <div class = "seperator"></div>
+                    <h2> Resolve conflict </h2>
+                    <p> As every other application, you will have to face many conflict that you must fix. We can't cover them and it is something that you will have try and resolve on your own. However, in this course, we will be showing you one of the most basic 
+                    conflict and how to resolve such conflict </p>
+                    <button class = "dropdown_button"> <h5> the most basic conflict and how to resolve </h5>
+                        <div class = "body_paragraph"> <!--create grid-->
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1> Same file name conflict </h1> 
+                                <p>This conflict appear when you create and push a local file that have the same name as the online file. You will not be able to push the file online using the add-commit-push combination as it will show you an error (example 1). To solve this problem, all you have to do is use the git pull command for it to merge both file in your local computer and then you can change it however you want.(example 2) After change it to the version you want, you can use the combination again to finally push it to the online repository without any problem (example 3). </p>
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\resolve conflict 1.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">Example 1</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\resolve conflict 2.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">Example 2</span>
+                                </div>
+                                <div class ='image_container'>
+                                <img src = "picture for personal website\resolve conflict 3.png" class = "image_inside_grid", width = "100%", alt = "Github before combination"/> 
+                                    <span class = "caption">Example 3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                </section>
+                <section class = "section", id ="how_to_use_github_5"><!--begin section 3-->
+                    <div class = "seperator"></div>
+                    <h2> Git branching </h2>
+                    <p> Git branching is one of the most important thing and also an amazing application that made git and github become especially good for people who are working on a project together.
+                     It is the ability to control the project to make sure that information can't be changes easily and should only be change when there will be no problem. That's why it become one of the best application for programmer 
+                    because you can mess up the whole program just because one line of code. That's why we will be going through the basic of git branching in this tutorial and firstly, we will be learning about what is git branching and what does git branching does</p>
+                    <button class = "dropdown_button"> <h5> What is Git branching? </h5>
+                        <div class = "body_paragraph"> <!--create grid-->
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>What is Git branching?  </h1> 
+                                <p>When we are working with a project, you are bound to encounter bugs and problems that you need to fix. That is why you will be needing this feature. Branching is creating the same program and you can change it without affecting the original. With the new same program, you can add feature, fix bugs all you want and when there is no more problem, you can merge it with the master branch for it to be have all the feature that you want. This is to avoid any problem that will break your entire program just because some new lines of code that you just created. There are many different branching commands in git, but we will look at some of the most common commands.</p>
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\gitbranching1.png" class = "center_image", width = "90%", alt = "Git branching example"> </img>
+                                <p class = "reference_for_the_image"> Git branching illustration </p>
+                            </div> 
+                        </div>
+                    </button>
+                    <h2>git branch commands</h2>
+                    <p> In this part, we will be looking through some basic the commands that is used to control git branch.</p>
+                    <button class = "dropdown_button"> <h5> Git branch commands</h5>
+                        <div class = "body_paragraph">
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\gitbranching2.png" class = "center_image", width = "90%", alt = "Git branching example"> </img>
+                                <p class = "reference_for_the_image"> Example </p>
+                            </div> 
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>Git branch </h1> 
+                                <p>Git branch is the command will show you all the branch that your github currently has and in this example, it only have one master branch which is the main branch. The star sign next to the master mean that we are currently inside that branch.(example)</p>
+                            </div>
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>Git checkout -b command </h1> 
+                                <p>Git checkout is used to switch between branches but when combining with -b, it will create a new branch. The full command is Git checkout -b [branch’s name] (Example). It is important for you to name the branch’s name specifically so that when the other look at it, they will also be able to understand what this file is for.</p>
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\git-checkout-b.png" class = "center_image", width = "90%", alt = "Git branching example"> </img>
+                                <p class = "reference_for_the_image"> Example </p>
+                            </div> 
+                            <div class = "grid_box_for_blank_spot">
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\making-changes-to-branches1.png" class = "image_inside_grid", width = "100%", alt = "making changes to branches example 1"/> 
+                                    <span class = "caption">Example 1</span>
+                                </div> 
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\making-changes-to-branches2.png" class = "image_inside_grid", width = "100%", alt = "making changes to branches example 2"/> 
+                                    <span class = "caption">Example 2</span>
+                                </div>
+                                <div class ='image_container'>
+                                    <img src = "picture for personal website\making-changes-to-branches3.png" class = "image_inside_grid", width = "100%", alt = "making changes to branches example 3"/> 
+                                    <span class = "caption">Example 3</span>
+                                </div>
+                            </div>
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>making changes to the branches </h1> 
+                                <p>After making changes in the branch, you use the combination add and commit(example 1). The problem here will be related to the final step which is the git push command. As you know, we have only created the branch locally so online, it has yet to even has that branch to make the changes yet. That is why you are required to push all the branch to the github. The command for this is: git push -u origin (file name). This command is used to push that whole branch to Github not just some file(example 2). After pushing the branch to Github, you can merge both branch and the master branch by using the git merge command but you should only do this when you have finished all of your problems so that there won’t be any problems when merging. You can also merge online by clicking the compare and pull request on Github. It will allow you to make request for the administrator of the project to accept the merge request.(example 3)</p>
+                            </div>
+                            <div class = "grid_box_for_text">  <!--create the first row-->
+                                <h1>Delete branches</h1> 
+                                <p>When you finish merging and no longer needed to use the branch anymore, you can use the command git branch -d (branch name). The warning in the example is for the case when you have accidently deleted the branch when you have yet to merge so make sure to merge before you delete the branch. (example)</p>
+                            </div>
+                            <div class = "grid_box_for_blank_spot">
+                                <img src = "picture for personal website\delete-branch.png" class = "center_image", width = "90%", alt = "Git branching example"> </img>
+                                <p class = "reference_for_the_image"> Example </p>
+                            </div>
+                        </div>
+                    </button>
+                </section>
+            </div>
+            <div class = "col-3">
+                <div class = "sticky_block", text-align = "center">
+                    <h2> Bonus information: </h2>
+                    <p> for the people who want to download Git: <a href = "https://git-scm.com/downloads"> Download Git link</a></p>
+                    <br>
+                    <p> You can find the information about me and my group by clicking: <a href = "#"> About me and my group </a>
+                    <br>
+                    <p> You can find the information about the project I propose by clicking <a href = "#"> Project Idea </a>
+                    <br>
+                    <p> You can find about how I create and work on my project by clicking <a href = "#"> Tools </a>
+                    <br> 
+                    <p> You can find the feed back on my project idea by clicking <a href = "#"> Feedback </a>
+                    <br>
+                    <p> You can find about how my project can affect the IT world by clicking <a href = "#"> IT technologies </a>
+                    <br>
+                    <p> You can find about the interview that I made with an IT professional bt clicking <a href = "#"> IT Work </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>
+        <h3> Contact me </h3>
+    </div>
+    <div class = "container-fluid fullwidth">  
+        <div class = "row">
+            <div class = "col-4">
+                <div class = "social_media_account_frames"> 
+                    <a href = "https://www.facebook.com/theminh.nguyen.180625/" target = "_blank">
+                    <img src ="picture for personal website\download.png" class = "social_media_account">
+                    </a>
+                </div>
+                <div class = "social_media_account_frames">
+                    <a href = "https://twitter.com/nguynthminh19" target = "_blank">
+                    <img src = "picture for personal website\twitter.jpg" class = "social_media_account">
+                    </a>
+                </div>
+                <div class = "social_media_account_frames">
+                    <a href = "" target = "_blank">
+                    <img src = "picture for personal website\outlook.png" class = "social_media_account">
+                    </a>
+                </div>
+            </div>
+            <div class = "col-4 block">
+                <p> My name is:&nbsp;&nbsp;&nbsp;&nbsp;  Nguyen The Minh</p> <br>
+                <p> Outlook:&nbsp;&nbsp;&nbsp;&nbsp; s3878434</p> <br>
+                <p> University:&nbsp;&nbsp;&nbsp;&nbsp; RMIT</p> <br>
+            </div>
+            <div class = "col-4">
+                <img src = "picture for personal website\myface.jpg" class = "myface_pic">
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+</html>

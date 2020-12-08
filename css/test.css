@@ -1,0 +1,211 @@
+.First-header {
+    display: block;
+    text-align: center;
+}
+
+.bg-color {
+    background-color: rgb(189, 65, 247);
+}
+
+.menu {
+    display: block;
+    text-align: center;
+    background-color: #52D1DC;
+    margin: 10px;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: #52D1DC;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    text-align: center;
+    display: inline-table;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.menu ul li>.submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+    z-index: +1;
+}
+
+.submenu ul li {
+    display: block;
+    text-align: center;
+}
+
+.body_paragraph {
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+    background-attachment: fixed;
+    padding: 10px;
+    display: none;
+}
+
+.grid_box_for_text {
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid_box_for_blank_spot {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.social_media_account {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+}
+
+.section {
+    padding: 5px;
+    border: #333 5px solid;
+    text-align: left;
+    display: block;
+    background-color: #CBB3BF;
+}
+
+.section_header {
+    text-align: center;
+}
+
+.section>.seperator {
+    width: 60px;
+    height: 3px;
+    background-color: #a43f49;
+    margin: 10px auto;
+}
+
+.reference_for_the_image {
+    text-align: center;
+    font-size: smaller;
+    color: #333;
+}
+
+.grid_breaker {
+    text-align: center;
+    margin: 5px;
+    visibility: hidden;
+}
+
+.image_inside_grid {
+    margin: 0px;
+    align-items: center;
+}
+
+.image_container {
+    vertical-align: top;
+    border: #333;
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+
+.center_image {
+    margin: 5px;
+    padding: 5px;
+}
+
+.caption {
+    text-align: center;
+    display: block;
+}
+
+.dropdown_button {
+    background-color: rgb(199, 196, 196);
+    text-align: center;
+    color: #333;
+}
+
+.dropdown_button:focus>.body_paragraph {
+    display: grid
+}
+
+.dropdown_button:focus>.grid_breaker {
+    visibility: visible;
+}
+
+.sticky_block {
+    border: white 5px solid;
+    width: 100%;
+    height: relative;
+    position: sticky;
+    display: block;
+    background-color: aliceblue;
+    top: 0
+}
+
+.dropdown_button:hover {
+    background-color: rgb(191, 225, 255);
+    text-align: center;
+}
+
+footer {
+    display: block;
+    margin: 10px;
+    border: solid 5px black;
+    background-color: #C7EBF0;
+}
+
+.social_media_account_frames {
+    border: solid #5299D3 1px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 10px
+}
+
+.dropdown_button:hover>.fullwidth {
+    display: grid;
+}
+
+.bottom_ava {
+    display: block;
+    border: solid #5299D3 1px;
+    border-radius: 25px;
+}
+
+.block {
+    display: block;
+    background-color: inherit;
+    text-align: left;
+}
+
+.myface_pic {
+    border-radius: 50%;
+    width: 50%;
+    display: inline-flex;
+}

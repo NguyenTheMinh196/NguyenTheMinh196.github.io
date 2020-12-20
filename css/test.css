@@ -30,7 +30,7 @@
     text-align: center;
     display: inline-table;
     position: relative;
-    width: 250px;
+    width: 200px;
     height: 40px;
     line-height: 40px;
 }
@@ -94,7 +94,6 @@
 .section {
     padding: 5px;
     border: #333 5px solid;
-    text-align: left;
     display: block;
     background-color: #CBB3BF;
 }
@@ -116,15 +115,13 @@
     color: #333;
 }
 
-.grid_breaker {
-    text-align: center;
-    margin: 5px;
-    visibility: hidden;
-}
-
 .image_inside_grid {
     margin: 0px;
     align-items: center;
+}
+
+.one_picture {
+    display: none;
 }
 
 .image_container {
@@ -155,18 +152,20 @@
     display: grid
 }
 
-.dropdown_button:focus>.grid_breaker {
-    visibility: visible;
+.dropdown_button:focus>.one_picture {
+    display: block;
 }
 
 .sticky_block {
-    border: white 5px solid;
+    border: black 2px solid;
     width: 100%;
     height: relative;
     position: sticky;
     display: block;
     background-color: aliceblue;
-    top: 0
+    top: 0px;
+    max-height: 750px;
+    overflow: auto;
 }
 
 .dropdown_button:hover {
@@ -206,6 +205,55 @@ footer {
 
 .myface_pic {
     border-radius: 50%;
-    width: 50%;
+    width: 75%;
     display: inline-flex;
+}
+
+.block_hover {
+    background: #F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: fit-content;
+    width: fit-content;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -70px;
+    left: -30px;
+    display: none;
+    padding: 0 20px;
+    max-width: 400px;
+}
+
+.block_hover::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #333333;
+    border-right: 5px solid #333;
+    background: #f8f8f8;
+    margin-left: -10px;
+    left: 15%;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.image_50 {
+    width: 100px;
+    height: auto;
+}
+
+.p_para {
+    display: block;
+    margin: 0px;
+}
+
+a:hover .block_hover {
+    display: inline-block;
 }
